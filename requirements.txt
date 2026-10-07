@@ -1,0 +1,8 @@
+# Homework 4 · Campus Customs store — FastAPI backend + Pydantic AI agent
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.8
+pydantic-ai-slim[openai]>=1.0.0   # the shop chatbot agent
+python-dotenv>=1.0
+pillow>=10.0                       # cleans black photo backgrounds when serving images
+email-validator>=2.0              # validates EmailStr on sign-up / login
